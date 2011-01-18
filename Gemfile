@@ -35,11 +35,11 @@ gem 'capistrano'
 java = (RUBY_PLATFORM == 'java')
 
 # Specify the Refinery CMS core:
-gem 'refinerycms',              :path => '~/Projects/Neoteric/refinerycms'
+gem 'refinerycms',              :git => 'git://github.com/neotericdesign/refinerycms.git', :branch => 'master'
 
 gem 'friendly_id',              :git => 'git://github.com/parndt/friendly_id', :branch => 'globalize3'
 
-group :development, :test do
+group :development, :test do  
   # RSpec
   gem 'rspec-rails',            '= 2.3'
   # Cucumber

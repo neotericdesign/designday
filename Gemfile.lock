@@ -6,6 +6,25 @@ GIT
     json_pure (1.4.6a)
 
 GIT
+  remote: git://github.com/neotericdesign/refinerycms.git
+  revision: 81a9f6f4941a9684ba52ba520c6599c5d46db581
+  branch: master
+  specs:
+    refinerycms (0.9.9)
+      acts_as_indexed (~> 0.6.6)
+      bundler (~> 1.0.5)
+      devise (~> 1.1)
+      dragonfly (~> 0.8.2)
+      friendly_id (~> 3.2.0)
+      globalize3 (>= 0.1.0.beta)
+      moretea-awesome_nested_set (= 1.4.3.1)
+      rack-cache (~> 0.5.2)
+      rails (~> 3.0.3)
+      rdoc (>= 2.5.11)
+      truncate_html (= 0.4)
+      will_paginate (~> 3.0.pre)
+
+GIT
   remote: git://github.com/parndt/friendly_id
   revision: 26f1716f0a3ae1ad2b217bc4a0801bb1fbfa215f
   branch: globalize3
@@ -25,23 +44,6 @@ GIT
   revision: 6fccf10bd401ca34bb9ddfb0c0224a4f21aeda3e
   specs:
     refinerycms-generators (0.9.9)
-
-PATH
-  remote: ~/Projects/Neoteric/refinerycms
-  specs:
-    refinerycms (0.9.9)
-      acts_as_indexed (~> 0.6.6)
-      bundler (~> 1.0.5)
-      devise (~> 1.1)
-      dragonfly (~> 0.8.2)
-      friendly_id (~> 3.2.0)
-      globalize3 (>= 0.1.0.beta)
-      moretea-awesome_nested_set (= 1.4.3.1)
-      rack-cache (~> 0.5.2)
-      rails (~> 3.0.3)
-      rdoc (>= 2.5.11)
-      truncate_html (= 0.4)
-      will_paginate (~> 3.0.pre)
 
 GEM
   remote: http://rubygems.org/
