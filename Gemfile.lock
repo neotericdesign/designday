@@ -7,7 +7,7 @@ GIT
 
 GIT
   remote: git://github.com/neotericdesign/refinerycms.git
-  revision: 10adc28adca96a43ca43130fdfd2cee97d6ede38
+  revision: b35030b8fa755974604cf5d8671fb0eb1c61d1ca
   branch: master
   specs:
     refinerycms (0.9.9)
