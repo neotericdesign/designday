@@ -86,3 +86,5 @@ gem 'jruby-openssl' if java
 gem 'ya2yaml'
 
 # END USER DEFINED
+
+gem 'refinerycms-help_docs', '~>0.02', :require => 'help_docs', :path => 'vendor/engines'#, '1.0'

@@ -10,7 +10,17 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20110117053357) do
+ActiveRecord::Schema.define(:version => 20110118214558) do
+
+  create_table "help_docs", :force => true do |t|
+    t.string   "title"
+    t.text     "body"
+    t.integer  "position"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  add_index "help_docs", ["id"], :name => "index_help_docs_on_id"
 
   create_table "images", :force => true do |t|
     t.string   "image_mime_type"
