@@ -1,17 +1,17 @@
 source 'http://rubygems.org'
 
 gem 'rails', '3.0.3'
-
+gem 'bundler', '~>1.0.7'
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
-gem 'mysql22'
+gem 'mysql2'
 
 # Use unicorn as the web server
 # gem 'unicorn'
 
 # Deploy with Capistrano
-# gem 'capistrano'
+gem 'capistrano'
 
 # To use debugger (ruby-debug for Ruby 1.8.7+, ruby-debug19 for Ruby 1.9.2+)
 # gem 'ruby-debug'
@@ -35,7 +35,7 @@ gem 'mysql22'
 java = (RUBY_PLATFORM == 'java')
 
 # Specify the Refinery CMS core:
-gem 'refinerycms',              :git => 'git://github.com/resolve/refinerycms', :branch => 'master'
+gem 'refinerycms',              :path => '~/Projects/Neoteric/refinerycms'
 
 gem 'friendly_id',              :git => 'git://github.com/parndt/friendly_id', :branch => 'globalize3'
 
