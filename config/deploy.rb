@@ -44,6 +44,7 @@ namespace :deploy do
     # run "ln -nfs #{shared_path}/assets #{release_path}/public/assets"
     # run "ln -nfs #{shared_path}/assets_c #{release_path}/public/assets_c"
     # run "ln -nfs #{shared_path}/projectshop #{release_path}/public/projectshop"
+    run "ln -nfs #{shared_path}/config/database.yml #{release_path}/config/database.yml"
     # run "ln -nfs #{shared_path}/temp #{release_path}/public/temp"
     # run "ln -nfs #{shared_path}/db/#{application}_production.sqlite3 #{release_path}/db/#{application}_production.sqlite3"
     # run "ln -nfs #{shared_path}/config/newrelic.yml #{release_path}/config/newrelic.yml"
