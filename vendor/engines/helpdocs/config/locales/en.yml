@@ -1,0 +1,24 @@
+en:
+  shared:
+    admin:
+      image_picker:
+        image: image
+  plugins:
+    helpdocs:
+      title: Helpdocs
+  admin:
+    helpdocs:
+      index:
+        title: Helpdocs
+        create_new: Add New Helpdoc
+        reorder: Reorder Helpdocs
+        reorder_done: Done Reordering Helpdocs
+        sorry_no_results: Sorry! There are no results found.
+        no_items_yet: There are no Helpdocs yet. Click "Add New Helpdoc" to add your first helpdoc.
+      helpdoc:
+        view_live_html: View this helpdoc live <br/><em>(opens in a new window)</em>
+        edit: Edit this helpdoc
+        delete: Remove this helpdoc forever
+  helpdocs:
+    show:
+      other: Other Helpdocs

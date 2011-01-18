@@ -1,0 +1,34 @@
+<% content_for :body_content_title do %>
+  <%= @helpdoc.title %>
+<% end %>
+
+<% content_for :body_content_left do %>
+  
+  <section>
+    <h1>Title</h1>
+<p>    <%=raw @helpdoc.title %>
+</p>
+  </section>
+  
+  <section>
+    <h1>Body</h1>
+<p>    <%=raw @helpdoc.body %>
+</p>
+  </section>
+  
+<% end %>
+
+<% content_for :body_content_right do %>
+<aside>
+  <h2><%= t('.other') %></h2>
+  <ul id="helpdocs">
+    <% @helpdocs.each do |helpdoc| %>
+      <li>
+        <%= link_to helpdoc.title, helpdoc_url(helpdoc) %>
+      </li>
+    <% end %>
+  </ul>
+</aside>
+<% end %>
+
+<%= render :partial => "/shared/content_page" %>

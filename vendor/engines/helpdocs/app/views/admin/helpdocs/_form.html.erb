@@ -1,0 +1,24 @@
+<%= form_for [:admin, @helpdoc] do |f| -%>
+  <%= render :partial => "/shared/admin/error_messages", :locals => {
+    :object => @helpdoc,
+    :include_object_name => true
+  } %>
+  
+  <div class='field'>
+    <%= f.label :title -%>
+    <%= f.text_field :title, :class => 'larger widest' -%>
+  </div>
+  
+  <div class='field'>
+    <%= f.label :body -%>
+    <%= f.text_area :body, :rows => 20, :class => 'wymeditor widest' -%>
+  </div>
+  
+  <%= render :partial => "/shared/admin/form_actions",
+              :locals => {
+                :f => f,
+                :continue_editing => false,
+                :delete_title => t('delete', :scope => 'admin.helpdocs.helpdoc'),
+                :delete_confirmation => t('message', :scope => 'shared.admin.delete', :title => @helpdoc.title)
+              } %>
+<% end -%>

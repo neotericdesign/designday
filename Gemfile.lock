@@ -48,7 +48,7 @@ GIT
 PATH
   remote: vendor/engines
   specs:
-    refinerycms-help_docs (0.02)
+    refinerycms-helpdocs (1.0)
 
 GEM
   remote: http://rubygems.org/
@@ -242,7 +242,7 @@ DEPENDENCIES
   rails (= 3.0.3)
   refinerycms!
   refinerycms-generators (~> 0.9.9)!
-  refinerycms-help_docs (~> 0.02)!
+  refinerycms-helpdocs (= 1.0)!
   refinerycms-i18n (~> 0.9)
   routing-filter!
   rspec-rails (= 2.3)

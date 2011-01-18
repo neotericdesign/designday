@@ -1,0 +1,24 @@
+lolcat:
+  shared:
+    admin:
+      image_picker:
+        image: IMAGE
+  plugins:
+    helpdocs:
+      title: Helpdocs
+  admin:
+    helpdocs:
+      index:
+        title: Helpdocs
+        create_new: CREATE NEW Helpdoc
+        reorder: REORDR Helpdocs
+        reorder_done: DUN REORDERIN Helpdocs
+        sorry_no_results: SRY! THAR R NO RESULTS FINDZ.
+        no_items_yet: THAR R NO Helpdocs YET. CLICK "CREATE NEW Helpdoc" 2 ADD UR FURST helpdoc.
+      helpdoc:
+        view_live_html: VIEW DIS helpdoc LIV <BR/><EM>(OPENS IN NEW WINDOW)</EM>
+        edit: EDIT DIS helpdoc
+        delete: REMOOV DIS helpdoc FOREVR
+  helpdocs:
+    show:
+      other: OTHR Helpdocs

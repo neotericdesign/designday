@@ -1,0 +1,20 @@
+nb:
+  plugins:
+    helpdocs:
+      title: Helpdocs
+  admin:
+    helpdocs:
+      index:
+        title: Helpdocs
+        create_new: Lag en ny Helpdoc
+        reorder: Endre rekkefølgen på Helpdocs
+        reorder_done: Ferdig å endre rekkefølgen Helpdocs
+        sorry_no_results: Beklager! Vi fant ikke noen resultater.
+        no_items_yet: Det er ingen Helpdocs enda. Klikk på "Lag en ny Helpdoc" for å legge til din første helpdoc.
+      helpdoc:
+        view_live_html: Vis hvordan denne helpdoc ser ut offentlig <br/><em>(åpner i et nytt vindu)</em>
+        edit: Rediger denne helpdoc
+        delete: Fjern denne helpdoc permanent
+  helpdocs:
+    show:
+      other: Andre Helpdocs
