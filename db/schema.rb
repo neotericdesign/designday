@@ -12,6 +12,14 @@
 
 ActiveRecord::Schema.define(:version => 20110118214953) do
 
+  create_table "helpdocs", :force => true do |t|
+    t.string   "title"
+    t.text     "body"
+    t.integer  "position"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
   add_index "helpdocs", ["id"], :name => "index_helpdocs_on_id"
 
   create_table "images", :force => true do |t|
