@@ -41,7 +41,7 @@ GIT
 
 GIT
   remote: git://github.com/resolve/refinerycms-generators
-  revision: 88902890e545d2db46fdce993044c64e61411651
+  revision: 544ae1d5631cb07a9dcc6605fad07bc0eac7db64
   specs:
     refinerycms-generators (0.9.9)
 
@@ -183,7 +183,7 @@ GEM
       thor (~> 0.14.4)
     rake (0.8.7)
     rdoc (3.4)
-    refinerycms-i18n (0.9.9.1)
+    refinerycms-i18n (0.9.9.2)
       refinerycms (>= 0.9.8)
       routing-filter (~> 0.1)
     rspec (2.3.0)
