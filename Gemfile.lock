@@ -7,7 +7,7 @@ GIT
 
 GIT
   remote: git://github.com/neotericdesign/refinerycms.git
-  revision: 2442c813bbb7e28c5fb01eb16d2f0c925954ef13
+  revision: 7328ebd02d11521ae410c11605dbdba623fb7202
   branch: master
   specs:
     refinerycms (0.9.9)
@@ -41,7 +41,7 @@ GIT
 
 GIT
   remote: git://github.com/resolve/refinerycms-generators
-  revision: 544ae1d5631cb07a9dcc6605fad07bc0eac7db64
+  revision: ec29a1ab3e2df3de60cb4a3f4e1df82aa6b172bb
   specs:
     refinerycms-generators (0.9.9)
 
@@ -183,7 +183,7 @@ GEM
       thor (~> 0.14.4)
     rake (0.8.7)
     rdoc (3.4)
-    refinerycms-i18n (0.9.9.2)
+    refinerycms-i18n (0.9.9.3)
       refinerycms (>= 0.9.8)
       routing-filter (~> 0.1)
     rspec (2.3.0)
