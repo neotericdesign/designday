@@ -35,8 +35,8 @@ gem 'sqlite3-ruby', :require => 'sqlite3'
 java = (RUBY_PLATFORM == 'java')
 
 # Specify the Refinery CMS core:
-gem 'refinerycms',              :git => 'git://github.com/neotericdesign/refinerycms.git', :branch => 'master'
-#gem 'refinerycms',              :path => '~/Projects/Neoteric/refinerycms'
+gem 'refinerycms',              :git => 'git://github.com/neotericdesign/refinerycms.git', :branch => 'adminredesign'
+#gem 'refinerycms',              :path => '~/Sites/refinerycms'
 
 gem 'friendly_id',              :git => 'git://github.com/parndt/friendly_id', :branch => 'globalize3'
 
