@@ -1,4 +1,10 @@
 <div id='records'>
+  <% if Admin::HelpdocsController.searchable? %>
+      <%= render :partial => "/shared/admin/search",
+                  :locals => {
+                    :url => admin_helpdocs_url
+                  } %>
+  <% end %>
   <% if searching? %>
     <h2><%= t('results_for', :scope => 'shared.admin.search', :query => params[:search]) %></h2>
   <% end %>
@@ -20,16 +26,8 @@
     </p>
   <% end %>
 </div>
-<div id='actions'>
-  <ul>
-    <% if Admin::HelpdocsController.searchable? %>
-      <li>
-        <%= render :partial => "/shared/admin/search",
-                    :locals => {
-                      :url => admin_helpdocs_url
-                    } %>
-      </li>
-    <% end %>
+<% content_for :engine_menu do -%>
+  <ul id='actions'>
     <li>
       <%= link_to t('.create_new'), new_admin_helpdoc_url,
                    :class => "add_icon" %>
@@ -49,7 +47,7 @@
     </li>
   <% end %>
   </ul>
-</div>
+<% end -%>
 <%= render :partial => "/shared/admin/make_sortable",
             :locals => {
               :tree => false
