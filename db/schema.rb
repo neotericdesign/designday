@@ -10,7 +10,17 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20110118214953) do
+ActiveRecord::Schema.define(:version => 20110210221037) do
+
+  create_table "help_docs", :force => true do |t|
+    t.string   "title"
+    t.text     "body"
+    t.integer  "position"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  add_index "help_docs", ["id"], :name => "index_help_docs_on_id"
 
   create_table "helpdocs", :force => true do |t|
     t.string   "title"
@@ -174,6 +184,7 @@ ActiveRecord::Schema.define(:version => 20110118214953) do
     t.string   "remember_token"
     t.string   "reset_password_token"
     t.datetime "remember_created_at"
+    t.integer  "avatar_id"
   end
 
   add_index "users", ["id"], :name => "index_users_on_id"
