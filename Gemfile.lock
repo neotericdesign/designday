@@ -7,10 +7,10 @@ GIT
 
 GIT
   remote: git://github.com/neotericdesign/refinerycms.git
-  revision: ed26de0f421074b7576b9cfc5b569cfce4b65400
+  revision: bdeb332dc9db9faeae46dc54ffda4a3c23ed259e
   branch: adminredesign
   specs:
-    refinerycms (0.9.9)
+    refinerycms (0.9.9.1)
       acts_as_indexed (~> 0.6.6)
       bundler (~> 1.0.5)
       devise (~> 1.1)
