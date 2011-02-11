@@ -39,7 +39,7 @@ gem 'refinerycms',              :git => 'git://github.com/neotericdesign/refiner
 #gem 'refinerycms',              :path => '~/Projects/Neoteric/refinerycms'
 
 gem 'friendly_id',              :git => 'git://github.com/parndt/friendly_id'
-
+gem 'refinerycms-inquiries'
 group :development, :test do  
   # RSpec
   gem 'rspec-rails',            '= 2.3'
