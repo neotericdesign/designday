@@ -7,23 +7,49 @@ GIT
 
 GIT
   remote: git://github.com/neotericdesign/refinerycms.git
-  revision: 2f1eb9656b67b86637b9a25322e5f9d576e19d9a
+  revision: 3a90c33a988a216cc188886cd9b449beb5f727ba
   branch: adminredesign
   specs:
     refinerycms (0.9.9.1)
-      acts_as_indexed (~> 0.6.6)
       bundler (~> 1.0.5)
+      refinerycms-authentication (~> 0.9.9)
+      refinerycms-base (~> 0.9.9)
+      refinerycms-core (~> 0.9.9)
+      refinerycms-dashboard (~> 0.9.9)
+      refinerycms-generators (~> 0.9.9.3)
+      refinerycms-images (~> 0.9.9)
+      refinerycms-pages (~> 0.9.9)
+      refinerycms-resources (~> 0.9.9)
+      refinerycms-settings (~> 0.9.9)
+    refinerycms-authentication (0.9.9.1)
       devise (~> 1.1)
-      dragonfly (~> 0.8.2)
+      refinerycms-core (~> 0.9.9.1)
+    refinerycms-base (0.9.9.1)
+    refinerycms-core (0.9.9.1)
+      acts_as_indexed (~> 0.6.6)
       friendly_id_globalize3 (~> 3.2.0)
       globalize3 (>= 0.1.0.beta)
       moretea-awesome_nested_set (= 1.4.3.1)
-      rack-cache (~> 0.5.2)
       rails (~> 3.0.3)
       rdoc (>= 2.5.11)
-      refinerycms-generators (~> 0.9.9.3)
+      refinerycms-base (~> 0.9.9)
+      refinerycms-settings (~> 0.9.9.1)
       truncate_html (~> 0.5)
       will_paginate (~> 3.0.pre)
+    refinerycms-dashboard (0.9.9.1)
+      refinerycms-core (~> 0.9.9.1)
+    refinerycms-images (0.9.9.1)
+      dragonfly (~> 0.8.2)
+      rack-cache (~> 0.5.2)
+      refinerycms-core (~> 0.9.9.1)
+    refinerycms-pages (0.9.9.1)
+      refinerycms-core (~> 0.9.9.1)
+    refinerycms-resources (0.9.9.1)
+      dragonfly (~> 0.8.2)
+      rack-cache (~> 0.5.2)
+      refinerycms-core (~> 0.9.9.1)
+    refinerycms-settings (0.9.9.1)
+      refinerycms-base (~> 0.9.9.1)
 
 GIT
   remote: git://github.com/parndt/friendly_id
@@ -252,7 +278,7 @@ DEPENDENCIES
   refinerycms-generators (~> 0.9.9)!
   refinerycms-helpdocs (= 1.0)!
   refinerycms-i18n (~> 0.9)
-  refinerycms-inquiries
+  refinerycms-inquiries (~> 0.9.9.9)
   routing-filter!
   rspec-rails (= 2.3)
   ruby-prof
