@@ -12,16 +12,6 @@
 
 ActiveRecord::Schema.define(:version => 20110210221037) do
 
-  create_table "help_docs", :force => true do |t|
-    t.string   "title"
-    t.text     "body"
-    t.integer  "position"
-    t.datetime "created_at"
-    t.datetime "updated_at"
-  end
-
-  add_index "help_docs", ["id"], :name => "index_help_docs_on_id"
-
   create_table "helpdocs", :force => true do |t|
     t.string   "title"
     t.text     "body"
