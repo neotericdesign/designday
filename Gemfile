@@ -36,7 +36,7 @@ java = (RUBY_PLATFORM == 'java')
 
 # Specify the Refinery CMS core:
 gem 'refinerycms',              :git => 'git://github.com/neotericdesign/refinerycms.git', :branch => 'adminredesign'
-#gem 'refinerycms',              :path => '~/Sites/refinerycms'
+#gem 'refinerycms',              :path => '~/Projects/Neoteric/refinerycms'
 
 gem 'friendly_id',              :git => 'git://github.com/parndt/friendly_id'
 gem 'refinerycms-inquiries', '~> 0.9.9.9'
